@@ -1,0 +1,29 @@
+Overview:
+- Developed a machine learning model to identify Autonomous Systems (ASNs) exhibiting behavior similar to BGP serial hijackers.
+- Leveraged a diverse set of features related to ASN advertisement times, visibility metrics, MOAS conflicts, and more for robust classification.
+
+Key Points:
+- **Data Pre-processing:**
+  - Conducted thorough data pre-processing, handling null values and dissimilarity checks between training and testing datasets.
+  - Explored and categorized features into continuous, categorical, and redundant variables for effective analysis.
+
+- Exploratory Data Analysis (EDA):
+  - Utilized seaborn and matplotlib for EDA, including distribution plots and count plots to understand the distribution of the target variable.
+  - Examined correlations among features and identified key variables influencing the classification task.
+
+- Feature Selection and Correlation Analysis:
+  - Calculated mean correlation values and set a threshold for feature selection.
+  - Employed a neural network model with selected features, emphasizing interpretability and predictive power.
+
+- Model Training and Evaluation:
+  - Trained a TensorFlow-based neural network model on a scaled dataset, considering class imbalances.
+  - Evaluated the model's performance on a sample test dataset, presenting accuracy, precision, recall, and ROC/PR curves.
+
+- Prediction on Original Test Dataset:
+  - Applied the trained model to predict BGP serial hijacking behavior on the original test dataset.
+  - Assessed model accuracy and generated classification reports for detailed insights.
+
+Impact:
+- Contributed to the cybersecurity domain by providing a proactive approach to identifying potential BGP serial hijacking activities.
+- Enhanced the understanding of ASNs' behaviors through detailed feature analysis and model-driven predictions.
+
